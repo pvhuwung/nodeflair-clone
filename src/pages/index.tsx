@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <NextUIProvider>
 
-        <body className='bg-gray-100 min-h-screen z-10'>
+        <div className='bg-gray-100 min-h-screen z-10'>
           <div className='bg-white h-16 realative top-0'></div>
           <div className='bg-green-500 h-64 pl-8 pt-10'>
             <h1 className='text-4xl font-semibold text-white '>NodeFlair.
@@ -26,10 +26,9 @@ export default function Home() {
               <a></a>
               <button className=' absolute rounded-xl h-10 bg-gray-100  hover:bg-white text-black text-xl font-semibold '>&nbsp;&nbsp;&nbsp;&nbsp;💡  Read Salary Report 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
             </div>
-          </div>
           <title>Create Next App</title>
 
-          <section className=' relative pt-10 h-300 '>
+          <section className=' relative pt-36 h-300 '>
             <div className='Parent'>
               <div className='child1 md:block w-full xl:w-auto xl:mx-4'>
               <Jcard
@@ -112,7 +111,9 @@ export default function Home() {
 
             </div>
           </section>
-        </body>
+        </div>
+      </div>
+
 
       </NextUIProvider>
 
