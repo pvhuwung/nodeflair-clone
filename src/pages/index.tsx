@@ -52,7 +52,7 @@ export default function Home() {
                   skills={["AWS", "Docker", "NodeJS"]}
                 />
                 <Jcard
-                  Icon="amazon.png"
+                  Icon="amz.png"
                   Company="Amazon"
                   specialization="Solution"
                   role="Solution Architect"
