@@ -78,6 +78,8 @@ export default function Home() {
   return (
     <>
       <NextUIProvider>
+        
+        <body className="bg-gray-200 min-h-screen ">
         <header className=" bg-white h-16 realative top-0 left-0 z-999"></header>
         <div className="bg-green-500 h-64 pl-8 pt-10">
           <h1 className="text-4xl font-semibold text-white ">
@@ -127,6 +129,7 @@ export default function Home() {
             </div>
           </section>
         </div>
+        </body>
       </NextUIProvider>
     </>
   );

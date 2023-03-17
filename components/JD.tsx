@@ -23,7 +23,7 @@ const JD: React.FC<JcardProps> = ({
 }) => {
   return (
     <Grid.Container gap={2}>
-      <Card variant="bordered" css={{ mw: "3000px", height: "1070px", borderRadius:"$sm" }}>
+      <Card variant="bordered" css={{ mw: "3000px", height: "1034px", borderRadius:"$sm" }}>
         <Card.Header>
           <img
             src={Icon}
