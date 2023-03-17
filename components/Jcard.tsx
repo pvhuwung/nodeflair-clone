@@ -25,7 +25,7 @@ const Jcard: React.FC<JcardProps> = ({
 }) => {
   return (
     <Grid.Container gap={2} onClick={onSelect} className="cursor-pointer">
-      <Card isHoverable variant="bordered" css={{ mw: "3000px" }}>
+      <Card className="focus:outline-none focus:ring focus:ring-green-500" isHoverable variant="bordered" css={{ mw: "3000px" }}>
         <Card.Header>
           <img
             src={Icon}
