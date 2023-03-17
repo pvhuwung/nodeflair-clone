@@ -16,20 +16,18 @@ export default function Home() {
     <>
       <NextUIProvider>
 
-        <div className='bg-gray-100 min-h-screen z-10'>
+        <body className='bg-gray-200 min-h-screen z-10'>
           <div className='bg-white h-16 realative top-0'></div>
           <div className='bg-green-500 h-64 pl-8 pt-10'>
             <h1 className='text-4xl font-semibold text-white '>NodeFlair.
               <span className='text-yellow-300'>Job</span></h1>
             <h2 className='text-white pt-1 text-xl'>Aggregated job listings from popular job sites and career pages</h2>
-            <div className='pt-4'>
-              <a></a>
-              <button className=' absolute rounded-xl h-10 bg-gray-100  hover:bg-white text-black text-xl font-semibold '>&nbsp;&nbsp;&nbsp;&nbsp;💡  Read Salary Report 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-            </div>
-          </div>
-          <title>Create Next App</title>
-
-          <section className=' relative pt-10 h-300 '>
+              
+          <title>NodeFlair clone</title>
+          <button className=' absolute rounded-xl h-10 bg-gray-100  hover:bg-white text-black text-xl font-semibold '>
+                &nbsp;&nbsp;&nbsp;&nbsp;💡  Read Salary Report 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+          
+          <section className=' relative pt-36 h-300 '>
             <div className='Parent'>
               <div className='child1 md:block w-full xl:w-auto xl:mx-4'>
               <Jcard
@@ -46,14 +44,14 @@ export default function Home() {
                   Icon="bytedance.png"
                   Company="ByteDance"
                   specialization="Software"
-                  role="Backend Engineer (NodeJs)"
+                  role="Backend Engineer"
                   time="about 3 hours ago"
                   place="Singapore"
                   salary="S$10.2k - S$15.6k"
-                  skills={["AWS", "Docker", "Typescript", "NodeJS"]}
+                  skills={["AWS", "Docker", "NodeJS"]}
                 />
                 <Jcard
-                  Icon="amazon.png"
+                  Icon="amz.png"
                   Company="Amazon"
                   specialization="Solution"
                   role="Solution Architect"
@@ -66,7 +64,7 @@ export default function Home() {
                   Icon="grab.png"
                   Company="Grab"
                   specialization="PM"
-                  role="Senior Product Manager, Grabshare)"
+                  role="Senior Product Manager"
                   time="about 9 hours ago"
                   place="Singapore"
                   salary="S$7,803 - S$12,228 / Monthly"
@@ -86,7 +84,7 @@ export default function Home() {
                   Icon="apple.png"
                   Company="Apple"
                   specialization="QA"
-                  role="Photonics Test Development Engineer"
+                  role="Photonics Test Engineer"
                   time="about 3 days ago"
                   place="Singapore"
                   salary=""
@@ -113,6 +111,8 @@ export default function Home() {
             </div>
           </section>
         </div>
+      </body>
+
 
       </NextUIProvider>
 
