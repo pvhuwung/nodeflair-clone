@@ -46,11 +46,11 @@ export default function Home() {
                   Icon="bytedance.png"
                   Company="ByteDance"
                   specialization="Software"
-                  role="Backend Engineer (NodeJs)"
+                  role="Backend Engineer"
                   time="about 3 hours ago"
                   place="Singapore"
                   salary="S$10.2k - S$15.6k"
-                  skills={["AWS", "Docker", "Typescript", "NodeJS"]}
+                  skills={["AWS", "Docker", "NodeJS"]}
                 />
                 <Jcard
                   Icon="amazon.png"
@@ -66,7 +66,7 @@ export default function Home() {
                   Icon="grab.png"
                   Company="Grab"
                   specialization="PM"
-                  role="Senior Product Manager, Grabshare)"
+                  role="Senior Product Manager"
                   time="about 9 hours ago"
                   place="Singapore"
                   salary="S$7,803 - S$12,228 / Monthly"
