@@ -110,12 +110,13 @@ const Jcard: React.FC<JcardProps> = ({
 
         <Card.Divider />
 
-        <Card.Footer>
+        <Card.Footer css={{pt:"$3"}}>
           <Text
             css={{
               color: "#808080",
               fontWeight: "500",
-              borderRadius: "10%",
+              borderRadius: "20%",
+              
             }}
           >
             {skills.map((skill) => (

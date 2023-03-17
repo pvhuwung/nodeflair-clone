@@ -78,7 +78,7 @@ export default function Home() {
   return (
     <>
       <NextUIProvider>
-        <div className="bg-white h-16 realative top-0"></div>
+        <header className=" bg-white h-16 realative top-0 left-0 z-999"></header>
         <div className="bg-green-500 h-64 pl-8 pt-10">
           <h1 className="text-4xl font-semibold text-white ">
             NodeFlair.
