@@ -5,7 +5,7 @@ interface JcardProps {
   Company: string;
   specialization: string;
   role: string;
-  time: string;
+  time: string; 
   place: string;
   salary: string;
   skills: string[];
