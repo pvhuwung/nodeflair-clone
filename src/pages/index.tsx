@@ -22,11 +22,11 @@ export default function Home() {
             <h1 className='text-4xl font-semibold text-white '>NodeFlair.
               <span className='text-yellow-300'>Job</span></h1>
             <h2 className='text-white pt-1 text-xl'>Aggregated job listings from popular job sites and career pages</h2>
-            <div className='pt-4'>
-              <button className=' absolute rounded-xl h-10 bg-gray-100  hover:bg-white text-black text-xl font-semibold '>&nbsp;&nbsp;&nbsp;&nbsp;💡  Read Salary Report 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-            </div>
+              
           <title>NodeFlair clone</title>
-
+          <button className=' absolute rounded-xl h-10 bg-gray-100  hover:bg-white text-black text-xl font-semibold '>
+                &nbsp;&nbsp;&nbsp;&nbsp;💡  Read Salary Report 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+          
           <section className=' relative pt-36 h-300 '>
             <div className='Parent'>
               <div className='child1 md:block w-full xl:w-auto xl:mx-4'>
