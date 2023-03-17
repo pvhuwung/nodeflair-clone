@@ -113,7 +113,7 @@ const JD: React.FC<JcardProps> = ({
             css={{
               color: "#808080",
               fontWeight: "500",
-              borderRadius: "10%",
+              borderRadius: "10%", 
             }}
           >
             {skills.map((skill) => (
