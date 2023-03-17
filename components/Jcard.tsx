@@ -9,7 +9,7 @@ interface JcardProps {
   place: string;
   salary: string;
   skills: string[];
-  onSelect: () => void;
+  onSelect: () => void; 
 }
 
 const Jcard: React.FC<JcardProps> = ({
