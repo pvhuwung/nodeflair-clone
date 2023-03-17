@@ -86,7 +86,7 @@ export default function Home() {
                   Icon="apple.png"
                   Company="Apple"
                   specialization="QA"
-                  role="Photonics Test Development Engineer"
+                  role="Photonics Test Engineer"
                   time="about 3 days ago"
                   place="Singapore"
                   salary=""
