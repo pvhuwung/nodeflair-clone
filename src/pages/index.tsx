@@ -26,7 +26,7 @@ export default function Home() {
               <a></a>
               <button className=' absolute rounded-xl h-10 bg-gray-100  hover:bg-white text-black text-xl font-semibold '>&nbsp;&nbsp;&nbsp;&nbsp;💡  Read Salary Report 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
             </div>
-          <title>Create Next App</title>
+          <title>Nodeflair</title>
 
           <section className=' relative pt-36 h-300 '>
             <div className='Parent'>
