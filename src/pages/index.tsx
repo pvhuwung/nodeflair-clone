@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <NextUIProvider>
 
-        <div className='bg-gray-100 min-h-screen z-10'>
+        <body className='bg-gray-100 min-h-screen z-10'>
           <div className='bg-white h-16 realative top-0'></div>
           <div className='bg-green-500 h-64 pl-8 pt-10'>
             <h1 className='text-4xl font-semibold text-white '>NodeFlair.
@@ -112,7 +112,7 @@ export default function Home() {
 
             </div>
           </section>
-        </div>
+        </body>
 
       </NextUIProvider>
 
