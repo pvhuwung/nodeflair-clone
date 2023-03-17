@@ -7,7 +7,7 @@ interface JcardProps {
   role: string;
   time: string;
   place: string;
-  salary: string;
+  salary: string; 
   skills: string[];
 }
 
