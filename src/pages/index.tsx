@@ -107,7 +107,7 @@ export default function Home() {
                     role={job.role}
                     time={job.time}
                     place={job.place}
-                    salary={job.salary}
+                    salary={job.salary} 
                     skills={job.skills}
                   />
                 ))}
