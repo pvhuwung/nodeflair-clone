@@ -1,4 +1,3 @@
-import { BorderColor } from "@mui/icons-material";
 import { Button, Card, Grid, Text } from "@nextui-org/react";
 
 interface JcardProps {
