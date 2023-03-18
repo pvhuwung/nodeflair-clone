@@ -158,17 +158,20 @@ const JD: React.FC<JcardProps> = ({
         <Card.Divider />
 
         <Grid.Container>
+        <Card.Header>
+
           <Text
             css={{
               fontWeight: "semibold",
               fontSize: "$xl",
               lineHeight: "$xs",
               mb: "$1",
-              padding:"$10"
             }}
           >
             Job Description
           </Text>
+        </Card.Header>
+
 
         </Grid.Container>
 
