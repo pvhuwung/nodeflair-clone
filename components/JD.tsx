@@ -35,7 +35,7 @@ const JD: React.FC<JcardProps> = ({
           />
           <Grid.Container css={{ pl: "$6" }}>
             <Grid xs={12}>
-              <Text css={{ color: "#accents8" }}>{Company} </Text>
+              <Text css={{ color: "#gray" }}>{Company} </Text>
               <Card isHoverable
                 css={{
                   textAlign: "center",
@@ -91,13 +91,15 @@ const JD: React.FC<JcardProps> = ({
             <Grid xs={12}>
               <Text
                 css={{
-                  color: "#accents8",
-                  fontSize: "$sm",
+                  color: "gray",
+                  fontSize: "$md",
+                  paddingTop:"$5",
+                  fontWeight:"normal"
                 }}
               >
                 {time}&nbsp;&nbsp;
               </Text>
-
+              <span className="pt-3">
               <svg
                 
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,8 +107,9 @@ const JD: React.FC<JcardProps> = ({
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-4 h-4 "
+                className="w-4 h-4 bot-1 "
               >
+                
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -118,14 +121,15 @@ const JD: React.FC<JcardProps> = ({
                   d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                 />
               </svg>
+              </span>
 
-              <span className="text-gray-500 font-normal text-sm pt-0.5 ">
+              <span className="text-gray-500 font-normal text-md pt-2 ">
                 {" "}
                 {place}
               </span>
 
             </Grid>
-
+                
             <Grid xs={12}>
               <Text css={{ color: "#000000", lineHeight: "$xs", mb: "$1" }}>
                 {salary}
