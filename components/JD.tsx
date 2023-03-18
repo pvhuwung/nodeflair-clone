@@ -99,12 +99,13 @@ const JD: React.FC<JcardProps> = ({
               </Text>
 
               <svg
+                
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-4 h-4 "
               >
                 <path
                   strokeLinecap="round"
@@ -118,7 +119,7 @@ const JD: React.FC<JcardProps> = ({
                 />
               </svg>
 
-              <span className="text-gray-500 font-normal text-lg ">
+              <span className="text-gray-500 font-normal text-sm pt-0.5 ">
                 {" "}
                 {place}
               </span>
