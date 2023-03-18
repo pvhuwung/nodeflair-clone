@@ -56,7 +56,7 @@ const Jcard: React.FC<JcardProps> = ({
               <Text
                 css={{
                   fontWeight: "bold",
-                  fontSize: "$l",
+                  fontSize: "$xl",
                   lineHeight: "$xs",
                   mb: "$1",
                 }}

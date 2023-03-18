@@ -71,6 +71,36 @@ const allJobs = [
     salary: "",
     skills: ["C++", "LabView", "Python"],
   },
+  {
+    Icon: "apple.png",
+    Company: "Apple",
+    specialization: "QA",
+    role: "Photonics Test Engineer",
+    time: "about 3 days ago",
+    place: "Singapore",
+    salary: "",
+    skills: ["C++", "LabView", "Python"],
+  },
+  {
+    Icon: "apple.png",
+    Company: "Apple",
+    specialization: "QA",
+    role: "Photonics Test Engineer",
+    time: "about 3 days ago",
+    place: "Singapore",
+    salary: "",
+    skills: ["C++", "LabView", "Python"],
+  },
+  {
+    Icon: "apple.png",
+    Company: "Apple",
+    specialization: "QA",
+    role: "Photonics Test Engineer",
+    time: "about 3 days ago",
+    place: "Singapore",
+    salary: "",
+    skills: ["C++", "LabView", "Python"],
+  },
 ];
 
 export default function Home() {
@@ -78,11 +108,10 @@ export default function Home() {
   return (
     <>
       <NextUIProvider>
-        
-        <body className="bg-gray-200 min-h-screen ">
-        <header className=" bg-white h-16 realative top-0 left-0 z-999"></header>
-        <div className="bg-green-500 h-64 pl-8 pt-10">
-          <h1 className="text-4xl font-semibold text-white ">
+        <body className="bg-gray-200 min-h-screen snap-center	 ">
+        <header className=" bg-white h-10 realative top-0 sticky z-20"></header>
+        <div className="bg-green-500 h-64 pl-8 pt-10 z-19">
+          <h1 className="text-4xl font-semibold text-white">
             NodeFlair.
             <span className="text-yellow-300">Job</span>
           </h1>
@@ -95,10 +124,9 @@ export default function Home() {
             &nbsp;&nbsp;&nbsp;&nbsp;💡 Read Salary Report
             2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </button>
-
-          <section className=" relative pt-36 h-300 ">
-            <div className="Parent">
-              <div className="child1 md:block w-full xl:w-auto xl:mx-4">
+          <section className=" relative pt-36 h-300   ">
+            <div className="Parent pt-10 ">
+              <div className="p-1.5 relative child1  md:block w-full xl:w-auto xl:mx-4  max-w-none  max-h-[50rem] overflow-y-scroll overflow-x-hidden  ">
                 {allJobs.map((job, index) => (
                   <Jcard
                     key={index}
@@ -114,7 +142,8 @@ export default function Home() {
                   />
                 ))}
               </div>
-              <div className="child2 pt-0 hidden xl:block xl:remove">
+              <div className="relative pt-1.5 child2 hidden xl:block xl:remove space-y-0 max-h-[50rem] h-1000 text-lg overflow-y-scroll pr-5 scrollbar-thin
+    scrollbar-track-none">
                 <JD
                   Icon={allJobs[activeJob].Icon}
                   Company={allJobs[activeJob].Company}
@@ -131,6 +160,7 @@ export default function Home() {
         </div>
         </body>
       </NextUIProvider>
+      
     </>
   );
 }

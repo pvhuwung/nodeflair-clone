@@ -1,4 +1,5 @@
-import { Card, Grid, Text } from "@nextui-org/react";
+import { BorderColor } from "@mui/icons-material";
+import { Button, Card, Grid, Text } from "@nextui-org/react";
 
 interface JcardProps {
   Icon: string;
@@ -7,7 +8,7 @@ interface JcardProps {
   role: string;
   time: string;
   place: string;
-  salary: string; 
+  salary: string;
   skills: string[];
 }
 
@@ -22,8 +23,10 @@ const JD: React.FC<JcardProps> = ({
   skills,
 }) => {
   return (
+
+
     <Grid.Container gap={2}>
-      <Card variant="bordered" css={{ mw: "3000px", height: "1034px", borderRadius:"$sm" }}>
+      <Card variant="bordered" css={{ mw: "2000px", height: "2000px", borderRadius: "$sm" }}>
         <Card.Header>
           <img
             src={Icon}
@@ -33,28 +36,52 @@ const JD: React.FC<JcardProps> = ({
           />
           <Grid.Container css={{ pl: "$6" }}>
             <Grid xs={12}>
-              <Text css={{ color: "$accents8" }}>{Company} </Text>
-              <Text
+              <Text css={{ color: "#accents8" }}>{Company} </Text>
+              <Card isHoverable
                 css={{
-                  color: "#1fc76a",
+                  textAlign: "center",
+                  mw: "70px",
+                  height: "30px",
+                  color: "#FFFFFF",
                   position: "absolute",
-                  top: "$8",
+                  top: "$10",
                   right: "$10",
                   border: "1px",
-                  backgroundColor: "#DCFAE4",
-                  fontWeight: "500",
-                  borderRadius: "10%",
+                  backgroundColor: "#1fc76a",
+                  fontWeight: "800",
+                  borderRadius: "5px",
+                  fontSize: "$md"
                 }}
               >
-                &nbsp;&nbsp; {specialization} &nbsp;&nbsp;{" "}
-              </Text>
+                &nbsp; Apply &nbsp;
+              </Card>
+              <Card isHoverable
+                css={{
+                  textAlign: "center",
+                  mw: "70px",
+                  height: "30px",
+                  color: "#1fc76a",
+                  position: "absolute",
+                  top: "$18",
+                  right: "$10",
+                  backgroundColor: "#FFFFFF",
+                  fontWeight: "800",
+                  borderRadius: "5px",
+                  fontSize: "$md",
+                  border: "1px solid #1fc76a",
+                  borderColor: "#1fc76a"
+                }}
+              >
+                &nbsp; Share &nbsp;
+              </Card>
+
             </Grid>
 
             <Grid xs={12}>
               <Text
                 css={{
                   fontWeight: "bold",
-                  fontSize: "$l",
+                  fontSize: "$xl",
                   lineHeight: "$xs",
                   mb: "$1",
                 }}
@@ -65,9 +92,8 @@ const JD: React.FC<JcardProps> = ({
             <Grid xs={12}>
               <Text
                 css={{
-                  color: "#1fc76a",
-                  fontWeight: "bold",
-                  fontSize: "$md",
+                  color: "#accents8",
+                  fontSize: "$sm",
                 }}
               >
                 {time}&nbsp;&nbsp;
@@ -97,7 +123,9 @@ const JD: React.FC<JcardProps> = ({
                 {" "}
                 {place}
               </span>
+
             </Grid>
+
             <Grid xs={12}>
               <Text css={{ color: "#000000", lineHeight: "$xs", mb: "$1" }}>
                 {salary}
@@ -106,9 +134,9 @@ const JD: React.FC<JcardProps> = ({
           </Grid.Container>
         </Card.Header>
 
-        <Card.Divider />
 
         <Card.Footer>
+
           <Text
             css={{
               color: "#808080",
@@ -123,7 +151,25 @@ const JD: React.FC<JcardProps> = ({
             ))}
           </Text>
         </Card.Footer>
+        <Card.Divider />
+
+        <Grid.Container>
+          <Text
+            css={{
+              fontWeight: "semibold",
+              fontSize: "$xl",
+              lineHeight: "$xs",
+              mb: "$1",
+              padding:"$10"
+            }}
+          >
+            Job Description
+          </Text>
+
+        </Grid.Container>
+
       </Card>
+
     </Grid.Container>
   );
 };
